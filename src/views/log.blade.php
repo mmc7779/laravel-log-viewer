@@ -67,7 +67,7 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col sidebar mb-3">
-      <h1><i class="fa fa-pied-piper" aria-hidden="true"></i> Log Viewer</h1>
+      <h1><i class="fab fa-pied-piper" aria-hidden="true"></i> Log Viewer</h1>
       <p class="text-muted"><i>ITS HOBS-HRP</i></p>
       <div class="list-group">
         @foreach($files as $file)
