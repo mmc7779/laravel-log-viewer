@@ -69,6 +69,7 @@
     <div class="col sidebar mb-3">
       <h1><i class="fab fa-pied-piper" aria-hidden="true"></i> Log Viewer</h1>
       <p class="text-muted"><i>ITS HOBS-HRP</i></p>
+      <p><a href="{{ url('dashboard') }}" class="btn btn-outline-primary btn-block"><i class="fas fa-home"></i> Back to Dashboard</a></p>
       <div class="list-group">
         @foreach($files as $file)
           <a href="?l={{ \Illuminate\Support\Facades\Crypt::encrypt($file) }}"
